@@ -2,6 +2,7 @@ dependencies:
   fastify: 3.28.0
   fastify-formbody: 5.2.0
   fastify-static: 4.6.1
+  figlet: 1.5.2
   handlebars: 4.7.7
   point-of-view: 5.2.0
 packages:
@@ -222,6 +223,12 @@ packages:
     dev: false
     resolution:
       integrity: sha512-YpkpUnK8od0o1hmeSc7UUs/eB/vIPWJYjKck2QKIzAf71Vm1AAQ3EbuZB3g2JIy+pg+ERD0vqI79KyZiB2e2Nw==
+  /figlet/1.5.2:
+    dev: false
+    engines:
+      node: '>= 0.4.0'
+    resolution:
+      integrity: sha512-WOn21V8AhyE1QqVfPIVxe3tupJacq1xGkPTB4iagT6o+P2cAgEOOwIxMftr4+ZCTI6d551ij9j61DFr0nsP2uQ==
   /find-my-way/4.5.1:
     dependencies:
       fast-decode-uri-component: 1.0.1
@@ -626,5 +633,6 @@ specifiers:
   fastify: ^3.28.0
   fastify-formbody: ^5.2.0
   fastify-static: ^4.6.1
+  figlet: ^1.5.2
   handlebars: ^4.7.7
   point-of-view: ^5.2.0

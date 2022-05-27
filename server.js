@@ -60,12 +60,12 @@ const server = http.createServer((req, res) => {
         }
         res.end(JSON.stringify(objToJson));
       }
-      else if(params['student'] = 'christina'){
+      else if(params['student'] == 'christina'){
         res.writeHead(200, {'Content-Type': 'application/json'});
         const objToJson = {
           name: "christina",
           grade: "7",
-          accomodations: ["Flexible attendance", "extra exam time", "A non-distracting, quiet setting for assignments and tests", "captioned films"]
+          accomodations: ["Flexible attendance", "extra exam time", "A non-distracting, quiet setting for assignments and tests"]
         }
         res.end(JSON.stringify(objToJson));
       }
@@ -91,7 +91,7 @@ const server = http.createServer((req, res) => {
         res.writeHead(200, {'Content-Type': 'application/json'});
         const objToJson = {
           name: "maxwell",
-          grade: "42",
+          grade: "16",
           accomodations: ["A non-distracting, quiet setting for assignments and tests", "copy of another student’s notes, or recording of lectures", "Assignments made available in electronic format"]
         }
         res.end(JSON.stringify(objToJson));
@@ -114,6 +114,7 @@ const server = http.createServer((req, res) => {
         }
         res.end(JSON.stringify(objToJson));
       }
+      
     }
   }
   else if (page == '/css/style.css'){
@@ -140,11 +141,11 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(8000);
+server.listen(7000);
 
 
 
-// example
+//example
 // const expr = 'Papayas';
 // switch (expr) {
 //   case 'Oranges':

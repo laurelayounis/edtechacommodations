@@ -36,7 +36,7 @@ const server = http.createServer((req, res) => {
         const objToJson = {
           name: "leon",
           status: "Boss Man",
-          currentOccupation: "Baller"
+          currentOccupation: ["Baller", "baller teacher"]
         }
         res.end(JSON.stringify(objToJson));
       }//student = leon
@@ -48,9 +48,9 @@ const server = http.createServer((req, res) => {
           currentOccupation: "unknown"
         }
         res.end(JSON.stringify(objToJson));
-      }//student != leon
-    }//student if
-  }//else if
+      }
+    }
+  }
   else if (page == '/css/style.css'){
     fs.readFile('css/style.css', function(err, data) {
       res.write(data);
@@ -75,4 +75,7 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(8000);
+server.listen(7000);
+
+
+

@@ -12,6 +12,6 @@ async function makeReq(){
   let accomodations = document.querySelector("#accomodations")
   accomodations.innerText = ''
   data.accomodations.forEach(x => {
-    accomodations.innerText += x + ' '
+    accomodations.innerText += ` ${x} ||`
   })
 }

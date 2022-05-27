@@ -35,7 +35,7 @@ const server = http.createServer((req, res) => {
         res.writeHead(200, {'Content-Type': 'application/json'});
         const objToJson = {
           name: "leon",
-          status: "Boss Man",
+          accomodations: ["Boss Man"] 
           currentOccupation: ["Baller", "baller teacher"]
         }
         res.end(JSON.stringify(objToJson));

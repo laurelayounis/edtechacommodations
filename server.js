@@ -65,7 +65,7 @@ const server = http.createServer((req, res) => {
         const objToJson = {
           name: "christina",
           grade: "7",
-          accomodations: ["Flexible attendance", "extra exam time", "A non-distracting, quiet setting for assignments and tests"]
+          accomodations: ["Flexible attendance", "extra exam time", "A non-distracting, quiet setting for assignments and tests", "captioned films"]
         }
         res.end(JSON.stringify(objToJson));
       }
@@ -114,7 +114,6 @@ const server = http.createServer((req, res) => {
         }
         res.end(JSON.stringify(objToJson));
       }
-      
     }
   }
   else if (page == '/css/style.css'){
@@ -141,21 +140,21 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(7000);
+server.listen(8000);
 
 
 
-//example
-const expr = 'Papayas';
-switch (expr) {
-  case 'Oranges':
-    console.log('Oranges are $0.59 a pound.');
-    break;
-  case 'Mangoes':
-  case 'Papayas':
-    console.log('Mangoes and papayas are $2.79 a pound.');
-    // expected output: "Mangoes and papayas are $2.79 a pound."
-    break;
-  default:
-    console.log(`Sorry, we are out of ${expr}.`);
-}
+// example
+// const expr = 'Papayas';
+// switch (expr) {
+//   case 'Oranges':
+//     console.log('Oranges are $0.59 a pound.');
+//     break;
+//   case 'Mangoes':
+//   case 'Papayas':
+//     console.log('Mangoes and papayas are $2.79 a pound.');
+//     // expected output: "Mangoes and papayas are $2.79 a pound."
+//     break;
+//   default:
+//     console.log(`Sorry, we are out of ${expr}.`);
+// }

@@ -9,5 +9,8 @@ async function makeReq(){
   console.log(data);
   document.querySelector("#name").textContent = data.name
   document.querySelector("#grade").textContent = data.grade
-  document.querySelector("#accomodations").textContent = data.accomodations
+  let accomodations = document.querySelector("#accomodations")
+  data.accomodations.forEach(x => {
+    accomodations.innerText += x
+  })
 }

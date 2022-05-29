@@ -1,9 +1,10 @@
 # EdTech Access
 Individualized educational plans access made easier. Currently the systems in place leave educational gaps where students get left behind due to the lack of awareness that certain students have educational plans as well as what acccomodations are included in those plans. This fullstack app bridges the gap and brings awareness to educational personnel so they're able to easier implement accomodations for students who have 504s & or IEPs.
 
-**Link to project:** (https://happynotes.netlify.app/)
+**Link to project:** https://edtech-access.glitch.me
 
 
+![EdTech Access](https://user-images.githubusercontent.com/101478440/170888831-c92e03cd-59e7-483c-86ad-8c23411304ee.gif)
 
 
 
